@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DepositCalculator {
     static final int CONST = 2;
-    static final double PERCENT_RATE = 0.6;
+    static final double PERCENT_RATE = 0.06;
 
     double calculateComplexPercent(double amount, double yearRate, int depositPeriod) {
         double pay = amount * Math.pow((1 + yearRate / 12), 12 * depositPeriod);
